@@ -1,0 +1,53 @@
+@media screen and (max-width: 518px) {
+  container {
+    width: 100%;
+  }
+  #navbar {
+    flex-direction: column;
+    height: auto;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+  }
+  #navname {
+    margin: 14px 0;
+  }
+  #navelements {
+    flex-direction: column;
+  }
+  /* aboutsection */
+  #about {
+    margin-top: 15vh;
+  }
+  #about hr {
+    width: 17vh;
+  }
+  /* #skills */
+  #skill hr {
+    width: 15vh;
+  }
+
+  /* PROJECT SCETION */
+  #project {
+    width: auto;
+  }
+  #project hr {
+    width: 22vh;
+  }
+  #projectinfo {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+  }
+  #projectinfo img {
+    width: 100px;
+  }
+  #projectinfo hr {
+    height: 0.5px;
+  }
+
+  /* contact section */
+  #contact hr {
+    width: 20vh;
+  }
+}
