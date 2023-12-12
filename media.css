@@ -50,4 +50,14 @@
   #contact hr {
     width: 20vh;
   }
+  #navelements.active {
+    display: none;
+  }
+
+  #cross {
+    display: block;
+  }
+  #projectinfo {
+    overflow: hidden;
+  }
 }
