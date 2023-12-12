@@ -13,4 +13,21 @@ function writeText() {
   setTimeout(writeText, 250);
 }
 
+// to- top scroll down
+
+const toTop = document.getElementById("to-top");
+
+window.addEventListener("scroll", function () {
+  if (window.pageYOffset > 100) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
+});
+
 // hameburger
+const cross = document.querySelector("#cross");
+const navelements = document.querySelector("#navelements");
+cross.addEventListener("click", function () {
+  navelements.classList.add("active");
+});
