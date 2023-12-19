@@ -39,7 +39,6 @@ html {
 
 #cross {
   font-size: 2vh;
-  
 
   width: 30px;
   height: 10px;
@@ -49,7 +48,7 @@ html {
   align-items: center;
   position: fixed;
   right: 12px;
-  top: 14px;
+  top: 20px;
   display: none;
 }
 
@@ -81,7 +80,7 @@ html {
   opacity: 1;
 }
 #about {
-  padding-top: 18vh;
+  padding-top: 20vh;
   color: rgba(253, 70, 116, 255);
   width: 50%;
   margin: auto;
@@ -98,17 +97,14 @@ html {
 
 #about1 {
   padding: 10px;
-
-  /* background-color: #131420; */
   background-color: #232540;
   border-radius: 20px;
   text-align: center;
-  transition: transform 0.2s ease-in-out;
   box-shadow: 1px 1px white;
 }
-#about1:hover {
+/* #about1:hover {
   transform: scale(1.1);
-}
+} */
 #about1 p {
   padding: 2px 0px;
   color: white;
