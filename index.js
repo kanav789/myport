@@ -26,8 +26,13 @@ window.addEventListener("scroll", function () {
 });
 
 // hameburger
-const cross = document.querySelector("#cross");
-const navelements = document.querySelector("#navelements");
-cross.addEventListener("click", function () {
-  navelements.classList.add("active");
+// const cross = document.querySelector("#cross");
+// const navelements = document.querySelector("#navelements");
+// cross.addEventListener("click", function () {
+//   navelements.classList.add("active");
+// });
+
+document.getElementById("cross").addEventListener("click", function () {
+  const container = document.querySelector("#navelements");
+  container.classList.toggle("hidden");
 });
