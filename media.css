@@ -53,10 +53,22 @@
   #contact hr {
     width: 20vh;
   }
-  #navelements.active {
+  /* #navelements.active {
+    display: none;
+  } */
+
+  #navelements.hidden {
     display: none;
   }
 
+  /* button */
+  #projectinfo button {
+    width: 8vh;
+    height: 4vh;
+    margin: -8px 0;
+    background-color: black;
+    border-radius: 7px;
+  }
   #cross {
     display: block;
   }
